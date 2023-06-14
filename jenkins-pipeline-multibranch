@@ -3,14 +3,14 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                // Define your build steps here
-                // This stage will run on any available executor (master or slaves)
+                 Define your build steps here
+                This stage will run on any available executor (master or slaves)
             }
         }
         stage('Test') {
             steps {
-                // Define your test steps here
-                // This stage will run on any available executor (master or slaves)
+                 Define your test steps here
+                 This stage will run on any available executor (master or slaves)
             }
         }
         stage('Deploy') {
